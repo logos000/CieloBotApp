@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Classical geometry mark: concentric circles, axis ticks, cardinal nodes.
+  Rendered in ink + accent so it reads as an engraved instrument dial.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="112dp"
+    android:viewportWidth="480"
+    android:viewportHeight="224">
+
+    <!-- 外圈 -->
+    <path android:strokeColor="#AAA59A" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M240,24 a88,88 0 1,0 0.1,0"/>
+
+    <!-- 中圈（虚线感：短弧段） -->
+    <path android:strokeColor="#C8C2B8" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M240,44 a68,68 0 1,0 0.1,0"/>
+
+    <!-- 内圈 -->
+    <path android:strokeColor="#9B7247" android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M240,68 a44,44 0 1,0 0.1,0"/>
+
+    <!-- 中轴十字：上下 -->
+    <path android:strokeColor="#252820" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M240,12 L240,40 M240,184 L240,212"/>
+
+    <!-- 中轴十字：左右 -->
+    <path android:strokeColor="#252820" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M140,112 L184,112 M296,112 L340,112"/>
+
+    <!-- 四向刻度 -->
+    <path android:strokeColor="#77756D" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M240,44 L240,52 M240,172 L240,180 M204,112 L212,112 M268,112 L276,112"/>
+
+    <!-- 中心点 -->
+    <path android:fillColor="#9B7247" android:pathData="M240,108 a4,4 0 1,0 0.1,0"/>
+
+    <!-- 左右延长基线 -->
+    <path android:strokeColor="#C8C2B8" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M8,112 L132,112 M348,112 L472,112"/>
+
+    <!-- 基线端头 -->
+    <path android:strokeColor="#AAA59A" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M8,106 L8,118 M472,106 L472,118"/>
+</vector>

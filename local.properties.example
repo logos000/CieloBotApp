@@ -1,0 +1,8 @@
+# 复制成 local.properties 再填。这个文件不进 git。
+#
+# macOS / Linux:
+# sdk.dir=/Users/you/Library/Android/sdk
+# Windows（注意用 \\ 或 /）:
+# sdk.dir=C:/Users/you/AppData/Local/Android/Sdk
+
+DEEPSEEK_API_KEY=sk-your-key-here

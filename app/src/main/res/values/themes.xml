@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="YinianTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/yn_accent</item>
+        <item name="android:colorPrimaryDark">@color/yn_ink</item>
+        <item name="android:colorAccent">@color/yn_accent</item>
+        <item name="android:windowBackground">@color/yn_bg_base</item>
+        <item name="android:statusBarColor">@color/yn_bg_base</item>
+        <item name="android:navigationBarColor">@color/yn_bg_base</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- 页眉编号：等宽小字，宽字距 -->
+    <style name="YnMeta">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/yn_ink_muted</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:letterSpacing">0.16</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- 字段标签 -->
+    <style name="YnLabel">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/yn_ink_muted</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <!-- 数值 -->
+    <style name="YnValue">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/yn_ink</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <!-- 大标题：衬线感，像印刷刊头 -->
+    <style name="YnTitle">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@color/yn_ink</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:lineSpacingExtra">-4dp</item>
+    </style>
+
+    <!-- 主按钮：棕金实心、全直角、硬阴影 -->
+    <style name="YnButton">
+        <item name="android:background">@drawable/yn_btn_primary</item>
+        <item name="android:textColor">@color/yn_bg_elevated</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:minHeight">54dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- 副按钮：纸面 + 硬边框 -->
+    <style name="YnButtonGhost">
+        <item name="android:background">@drawable/yn_btn_ghost</item>
+        <item name="android:textColor">@color/yn_ink</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>

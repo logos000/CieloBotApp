@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Yinian visual language (sampled from the yinian project)
+  Warm paper base, ink-green text, bronze/gold accents, zero radius,
+  hard offset shadows with no blur. Editorial, archival, print-like.
+-->
+<resources>
+    <!-- Surfaces (paper stack) -->
+    <color name="yn_bg_base">#EAE5E1</color>
+    <color name="yn_bg_panel">#F2EEE9</color>
+    <color name="yn_bg_elevated">#F8F5F1</color>
+    <color name="yn_bg_hover">#E3DDD6</color>
+
+    <!-- Rules -->
+    <color name="yn_border">#AAA59A</color>
+    <color name="yn_border_subtle">#C8C2B8</color>
+    <color name="yn_border_strong">#77756D</color>
+
+    <!-- Ink -->
+    <color name="yn_ink">#252820</color>
+    <color name="yn_ink_hover">#4B4A3B</color>
+    <color name="yn_ink_muted">#786E5F</color>
+    <color name="yn_ink_faint">#A39B8E</color>
+
+    <!-- Accent -->
+    <color name="yn_accent">#9B7247</color>
+    <color name="yn_accent_hover">#7F5C39</color>
+    <color name="yn_accent_warm">#C2914A</color>
+    <color name="yn_accent_ink">#85603A</color>
+
+    <!-- Signal -->
+    <color name="yn_danger">#B8433A</color>
+    <color name="yn_ok">#4A6B4A</color>
+
+    <!-- Shadow (hard, no blur) -->
+    <color name="yn_shadow">#1F252820</color>
+    <color name="yn_shadow_soft">#14252820</color>
+</resources>
